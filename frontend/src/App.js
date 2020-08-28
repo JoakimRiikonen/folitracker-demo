@@ -50,11 +50,7 @@ const App = () => {
       <div>hello</div>  
     )
   }
-/* <FrontPage
-      avgLateness={avgLateness}
-      lateCount={lateCount}
-      trackedCount={trackedCount}
-      busData={busData}/> */
+
   return(
     <FullScreenMap 
       avgLateness={avgLateness}

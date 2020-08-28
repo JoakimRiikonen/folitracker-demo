@@ -77,7 +77,6 @@ const getBusData = async () => {
   const data = await fetchBusData()
   var busIDList = getMonitoredBuses(data)
   var formattedData = formatData(busIDList, data)
-  //console.log(formattedData)
   return formattedData
 }
 

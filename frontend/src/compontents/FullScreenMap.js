@@ -32,14 +32,6 @@ const whiteIcon = new L.Icon({
   popupAnchor: [0, -1]
 })
 
-/* const pinkIcon = new L.Icon({
-  iconUrl: IconPink,
-  iconRetinaUrl: IconPink,
-  iconSize: [20, 20],
-  iconAnchor: [10,10],
-  popupAnchor: [0, -1]
-}) */
-
 const redIcon = new L.Icon({
   iconUrl: IconRed,
   iconRetinaUrl: IconRed,

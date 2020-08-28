@@ -22,7 +22,6 @@ const Container = styled.div`
     margin: 10px auto;
   }
 `
-//box-shadow: 0px 1px 20px 0px rgba(23, 3, 79, 0.05);
 
 const Percentage = styled.div`
   grid-column: 1;
