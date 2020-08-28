@@ -9,8 +9,6 @@ const busFetchService = require('./busFetchService')
 
 app.use(cors());
 
-app.ise
-
 cron.schedule("*/10 * * * * *", async () => {
   console.log('fetching buses')
   BUSDATA = await busFetchService.getBusData()
